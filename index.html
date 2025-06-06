@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Black Russia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo-text">OMELIA BONUS</div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Сервера</a></li>
+        <li><a href="#">Форум</a></li>
+        <li><a href="#">Начать Игру</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Добро пожаловать На OMELIA BONUS</h1>
+    <p>OMELIA — симулятор настоящей России в твоём телефоне,Всегда хотел ощутить атмосферу России на смартфоне? Крутые тачки из реальной жизни, реалистичные дома и многое другое ждет тебя у нас. Присоединяйся прямо сейчас!,</p>
+  </main>
+
+  <div class="play-button-container">
+    <a href="#" class="play-button">Начать Играть</a>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
